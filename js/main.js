@@ -17,10 +17,6 @@ getEle("btnThem").addEventListener("click", function () {
   getEle("btnCapNhat").style.display = "none";
   getEle("btnReset").style.display = "block";
 
-  // var error = document.getElementsByClassName("alert alert-danger");
-  // for (var i = 0; i < error.length; i++) {
-  //   error[i].style.display = "none";
-  // }
   displayError("none");
 });
 
@@ -183,10 +179,7 @@ getEle("btnThemNV").addEventListener("click", function (event) {
   // Lưu mảng list xuống localStorage
   setLocalStorage();
 
-  var error = document.getElementsByClassName("alert alert-danger");
-  for (var i = 0; i < error.length; i++) {
-    error[i].style.display = "block";
-  }
+  displayError("block");
   // console.log(empList.list);
 });
 
@@ -305,10 +298,6 @@ getEle("btnCapNhat").addEventListener("click", function () {
 getEle("btnReset").addEventListener("click", function () {
   getEle("formInput").reset();
 
-  // var error = document.getElementsByClassName("alert alert-danger");
-  // for (var i = 0; i < error.length; i++) {
-  //   error[i].style.display = "none";
-  // }
   displayError("none");
 });
 
