@@ -1,0 +1,6 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+    // "liveServer.settings.port": 5501
+}
